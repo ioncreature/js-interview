@@ -1,8 +1,9 @@
 1. ES5 features
     * Explain array methods(map, filter, some, every, reduce, reduceRight, forEach)
+        
         What this code does?
         ```javascript
-
+        
         emailsString.split( /[,;\s]+/ ).every( function( email ){
             return $u.Validator.isEmail( email );
         });
@@ -10,6 +11,7 @@
         Rewrite it with .some() method
     * Object methods
         * Describe property attributes and Object.defineProperty, Object.getOwnPropertyDescriptor methods
+
             Write method join:
             ```javascript
             
@@ -27,7 +29,7 @@
                 value: function(){
                     return Object.keys( this ).join( ',' );
                 },
-                enumerable: true
+                enumerable: false
             });
             ```
         * Explain difference between Object.keys and Object.getOwnPropertyNames:
