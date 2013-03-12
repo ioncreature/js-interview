@@ -5,7 +5,7 @@
         ```javascript
         
         emailsString.split( /[,;\s]+/ ).every( function( email ){
-            return $u.Validator.isEmail( email );
+            return isEmail( email );
         });
         ```
         Rewrite it with .some() method
