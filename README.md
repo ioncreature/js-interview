@@ -1,7 +1,7 @@
 1. ES5 features
     * Explain array methods(map, filter, some, every, reduce, reduceRight, forEach)
         
-        What this code does?
+        What does this code do?
         ```javascript
         
         emailsString.split( /[,;\s]+/ ).every( function( email ){
