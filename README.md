@@ -54,3 +54,12 @@
 2. Closures
 3. Context
 4. Scope
+    * What is the result of:
+    ```javascript
+
+         Object.prototype.x = 10;
+         var y = 20;
+         (function(){
+             console.log( x, y );
+         })();
+    ```
